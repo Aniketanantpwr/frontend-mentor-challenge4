@@ -1,0 +1,107 @@
+body {
+    width: 1440px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.main-container {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 400px;
+    width: 180px;
+    padding: 50px;
+    flex-wrap: wrap;
+
+
+    /* font-family: 'Lexend Deca'; */
+
+
+
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+
+}
+
+#SUV {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#Luxary {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+button {
+    position: relative;
+    top: 50px;
+    background-color: hsl(0, 0%, 95%);
+    border-width: 0px;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+}
+
+p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Montserrat';
+    line-height: 25px;
+    font-weight: 400;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-stretch: 100px;
+}
+
+.sedan-button {
+    color: hsl(31, 77%, 52%);
+    
+}
+
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxary-button {
+    color: hsl(179, 100%, 13%);
+}
+
+.sedan-button:hover {
+    background-color: hsl(31, 68%, 82%);
+    transform: translateY(5px);
+
+}
+
+.suv-button:hover {
+    background-color: hsl(186, 77%, 86%);
+    transform: translateY(5px);
+
+}
+
+.luxary-button:hover {
+    background-color: hsl(179, 34%, 70%);
+    transform: translateY(5px);
+
+}
+
+.item:hover {
+    box-shadow: 0 0 10px;
+}
